@@ -1,3 +1,70 @@
 body {
-  background-color: lightcyan;
+  background: #54dc91;
+  
 }
+p {
+  color: #862c2c;
+  display: flex;
+  height: 150px;
+  justify-items: space-evenly;
+  gap:20px;
+  justify-content: center;
+}
+h1 {
+  display: flex;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 40px;
+  justify-content:center;
+
+}
+
+.top-img{
+  height: 300px;
+
+}
+
+.aboutmetext{
+  display: flex;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  justify-content:center;
+
+}
+
+.aboutmeimg{
+  display: flex;
+  justify-content:flex-start;
+  height:600px;
+}
+<style>
+.button-Personal-Life,
+.button-Education,
+.button-CSP,
+.button-Contact {
+  color: #1e0101;
+  border-radius: 23px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-Personal-Life {
+  background: rgb(38, 201, 76);
+  /* this is a green */
+}
+
+.button-Education {
+  background: rgb(202, 60, 60);
+  /* this is a maroon */
+}
+
+.button-CSP {
+  background: rgb(223, 117, 20);
+  /* this is an orange */
+}
+
+.button-Home {
+  background: rgb(66, 184, 221);
+  /* this is a light blue */
+}
+</style>
